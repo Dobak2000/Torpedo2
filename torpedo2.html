@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    	<title>Torpedó V2</title>
+
+    	<link rel="stylesheet" type="text/css" href="torpedo.css">
+    	<script type="text/javascript" src="torpedo2.js"></script>
+    	<!-- Bootstrap -->
+    	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container">
+		
+			<div class="middle">
+				<h1 class="header">Torpedó</h1>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="table">
+						<table>
+							<tbody id="table1">
+
+							<tr>
+								<td class="cell" id="1" onclick="placeBoat('1')"></td>
+								<td class="cell" id="2" onclick="placeBoat('2')"></td>
+								<td class="cell" id="3" onclick="placeBoat('3')"></td>
+								<td class="cell" id="4" onclick="placeBoat('4')"></td>
+								<td class="cell" id="5" onclick="placeBoat('5')"></td>
+							</tr>
+							<tr>
+								<td class="cell" id="6" onclick="placeBoat('6')"></td>
+								<td class="cell" id="7" onclick="placeBoat('7')"></td>
+								<td class="cell" id="8" onclick="placeBoat('8')"></td>
+								<td class="cell" id="9" onclick="placeBoat('9')"></td>
+								<td class="cell" id="10" onclick="placeBoat('10')"></td>
+							</tr>
+							<tr>
+								<td class="cell" id="11" onclick="placeBoat('11')"></td>
+								<td class="cell" id="12" onclick="placeBoat('12')"></td>
+								<td class="cell" id="13" onclick="placeBoat('13')"></td>
+								<td class="cell" id="14" onclick="placeBoat('14')"></td>
+								<td class="cell" id="15" onclick="placeBoat('15')"></td>
+							</tr>
+							<tr>
+								<td class="cell" id="16" onclick="placeBoat('16')"></td>
+								<td class="cell" id="17" onclick="placeBoat('17')"></td>
+								<td class="cell" id="18" onclick="placeBoat('18')"></td>
+								<td class="cell" id="19" onclick="placeBoat('19')"></td>
+								<td class="cell" id="20" onclick="placeBoat('20')"></td>
+							</tr>
+							<tr>
+								<td class="cell" id="21" onclick="placeBoat('21')"></td>
+								<td class="cell" id="22" onclick="placeBoat('22')"></td>
+								<td class="cell" id="23" onclick="placeBoat('23')"></td>
+								<td class="cell" id="24" onclick="placeBoat('24')"></td>
+								<td class="cell" id="25" onclick="placeBoat('25')"></td>
+							</tr>
+				
+							</tbody>
+						</table>
+					</div> <!-- table -->
+				</div> <!-- size -->
+
+				<div class="col-md-4">
+					<div class="table">
+						<table>
+							<tbody id="table2">
+
+							<tr>
+								<td class="cell" id="101" onclick="shootBoat('101')"></td>
+								<td class="cell" id="102" onclick="shootBoat('102')"></td>
+								<td class="cell" id="103" onclick="shootBoat('103')"></td>
+								<td class="cell" id="104" onclick="shootBoat('104')"></td>
+								<td class="cell" id="105" onclick="shootBoat('105')"></td>
+							</tr>
+							<tr>
+								<td class="cell" id="106" onclick="shootBoat('106')"></td>
+								<td class="cell" id="107" onclick="shootBoat('107')"></td>
+								<td class="cell" id="108" onclick="shootBoat('108')"></td>
+								<td class="cell" id="109" onclick="shootBoat('109')"></td>
+								<td class="cell" id="110" onclick="shootBoat('110')"></td>
+							</tr>
+							<tr>
+								<td class="cell" id="111" onclick="shootBoat('111')"></td>
+								<td class="cell" id="112" onclick="shootBoat('112')"></td>
+								<td class="cell" id="113" onclick="shootBoat('113')"></td>
+								<td class="cell" id="114" onclick="shootBoat('114')"></td>
+								<td class="cell" id="115" onclick="shootBoat('115')"></td>
+							</tr>
+							<tr>
+								<td class="cell" id="116" onclick="shootBoat('116')"></td>
+								<td class="cell" id="117" onclick="shootBoat('117')"></td>
+								<td class="cell" id="118" onclick="shootBoat('118')"></td>
+								<td class="cell" id="119" onclick="shootBoat('119')"></td>
+								<td class="cell" id="120" onclick="shootBoat('120')"></td>
+							</tr>
+							<tr>
+								<td class="cell" id="121" onclick="shootBoat('121')"></td>
+								<td class="cell" id="122" onclick="shootBoat('122')"></td>
+								<td class="cell" id="123" onclick="shootBoat('123')"></td>
+								<td class="cell" id="124" onclick="shootBoat('124')"></td>
+								<td class="cell" id="125" onclick="shootBoat('125')"></td>
+							</tr>
+						
+							</tbody>
+						</table>
+					</div> <!-- table -->
+				</div> <!-- size -->
+
+				<div id="texts">
+					<div id="textBoxDiv">
+						<div class="col-md-4" id="textBox"></div>
+					</div>
+
+					<div class="col-md-4" id="resultAndCheckbox">
+						<div id="result">
+							<p>Eredmény: 0 - 0</p>
+						</div>
+
+						<label class="checkbox">
+							<input type="checkbox" id="noInfoCheckbox"> Nem kérek részletes leírást
+						</label>
+
+						<div id="boatsLeft">
+							<p></p>
+						</div>
+					</div>
+				</div>
+
+			</div> <!-- row -->
+
+			<br>
+
+			<div class="middle" id="mainButton">
+				<button class="btn btn-success btn-s" onclick="start()">Kezdés</button>
+			</div>
+
+		</div> <!-- container -->
+
+	</body>
+
+</html>

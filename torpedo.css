@@ -1,0 +1,65 @@
+body {
+	margin: 30px 100px;
+}
+
+.middle {
+	width: 300px;
+	text-align: center;
+}
+
+.header {
+	color: green;
+	text-align: center;
+}
+
+table {
+	border: solid 2px red;
+	border-spacing: 0;
+}
+
+.cell {
+	width: 60px;
+	height: 60px;
+	border: solid 1px red;
+}
+
+#secondTable {
+	display: inline-block;
+}
+
+#textBox {
+	width: 300px;
+	height: 150px;
+	border: solid 2px black;
+	display: inline-block;
+	text-align: center;
+}
+
+#textBox p {
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+#resultAndCheckbox {
+	width: 300px;
+	height: 150px;
+	display: inline-block;
+	text-align: center;
+}
+
+#resultAndCheckbox p {
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+#boatsLeft p {
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+td {
+	font-size: 45px;
+	text-align: center;
+	line-height: 1;
+	vertical-align: center;
+}
